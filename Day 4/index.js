@@ -33,7 +33,7 @@ document.body.style.backgroundColor = COLORS[2];
 function wantKillMyself () {
     if (window.innerWidth <= 580) {
         document.body.style.backgroundColor = COLORS[0];
-    } else if (window.innerWidth > 580 && window.innerWidth <= 860) {
+    } else if (window.innerWidth <= 860) {
         document.body.style.backgroundColor = COLORS[1];
     } else {
         document.body.style.backgroundColor = COLORS[2];
